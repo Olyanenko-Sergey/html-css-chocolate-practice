@@ -7,9 +7,23 @@ body {
   color: #111;
   background-color: #fafafa;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 ol,
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+img {
+  display: block;
 }
 a {
   text-decoration: none;
@@ -22,6 +36,18 @@ address {
   font-style: normal;
 }
 /*Base stile*/
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -74,12 +100,23 @@ address {
   background-color: #fd9222;
 }
 /*Section*/
+.container {
+  max-width: 1168px;
+  padding: 0 16px;
+  margin: 0 auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
 .section {
+  padding: 60px 0;
 }
 .accent {
   color: #fd9222;
 }
 .section-title {
+  max-width: 412px;
+  margin-bottom: 0 auto 50px;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
