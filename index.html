@@ -35,95 +35,103 @@
   </head>
   <body>
     <header class="header" id="home">
-      <!--Site logo-->
-      <a class="logo" href="./index.html"
-        ><i>SYMPLY</i> CHOCOLATE<img
-          class="logo-icon"
-          src="./images/icons/logo.png"
-          alt="Site logo"
-          width="24"
-          height="24"
-      /></a>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li class="main-nav-item">
-            <a class="main-nav-link" href="#home"> Home </a>
+      <div class="container">
+        <!--Site logo-->
+        <a class="logo" href="./index.html"
+          ><i>SYMPLY</i> CHOCOLATE<img
+            class="logo-icon"
+            src="./images/icons/logo.png"
+            alt="Site logo"
+            width="24"
+            height="24"
+        /></a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#home"> Home </a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#made"> How it&#39;s made? </a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#review"> Chocolate is loved </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="socials">
+          <li class="socials-items">
+            <a
+              class="socials-links"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="socials-icone"
+                src="images/icons/illustration.png"
+                alt="facebook icon"
+                width="25"
+                height="25"
+            /></a>
           </li>
-          <li class="main-nav-item">
-            <a class="main-nav-link" href="#made"> How it&#39;s made? </a>
+          <li class="socials-items">
+            <a
+              class="socials-links"
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="socials-icone"
+                src="images/icons/illustration-1.png"
+                alt="instagram icon"
+                width="25"
+                height="25"
+            /></a>
           </li>
-          <li class="main-nav-item">
-            <a class="main-nav-link" href="#review"> Chocolate is loved </a>
+          <li class="socials-items">
+            <a
+              class="socials-links"
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="images/icons/illustration-2.png"
+                alt="the x icon"
+                width="25"
+                class="socials-icone"
+                height="25"
+            /></a>
           </li>
         </ul>
-      </nav>
-      <ul class="socials">
-        <li class="socials-items">
-          <a
-            class="socials-links"
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img
-              class="socials-icone"
-              src="images/icons/illustration.png"
-              alt="facebook icon"
-              width="25"
-              height="25"
-          /></a>
-        </li>
-        <li class="socials-items">
-          <a
-            class="socials-links"
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img
-              class="socials-icone"
-              src="images/icons/illustration-1.png"
-              alt="instagram icon"
-              width="25"
-              height="25"
-          /></a>
-        </li>
-        <li class="socials-items">
-          <a
-            class="socials-links"
-            href="https://x.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img
-              src="images/icons/illustration-2.png"
-              alt="the x icon"
-              width="25"
-              class="socials-icone"
-              height="25"
-          /></a>
-        </li>
-      </ul>
-      <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+      </div>
     </header>
     <main>
       <!--hero section-->
       <section class="hero" id="hero">
         <div class="container">
-          <h1 class="hero-title">
-            Treat yourself or a loved one to our finest ingredients for a moment
-            of pure delight!
-          </h1>
-          <button class="btn btn-filled" type="button">Buy now</button>
-          <button class="btn outlined primary" type="button">
-            How it&#39;s made
-          </button>
-          <a class="hero-link" href="#benefits"
-            >scroll down
-            <img
-              class="hero-link-item"
-              src="./images/icons/arrow-down.svg"
-              alt="arrow down"
-              width="22"
-              height="22"
-          /></a>
+          <div class="hero-wrapper">
+            <h1 class="hero-title">
+              Treat yourself or a loved one to our&nbsp;finest ingredients for a
+              moment of pure delight!
+            </h1>
+            <div class="hero-wrapper-btn">
+              <button class="btn btn-filled" type="button">Buy now</button>
+              <button class="btn outlined primary" type="button">
+                How it&#39;s made
+              </button>
+              <a class="hero-link" href="#benefits"
+                >scroll down
+                <span class="hero-link-circle">
+                  <img
+                    class="hero-link-item"
+                    src="./images/icons/arrow-down.svg"
+                    alt="arrow down"
+                    width="22"
+                    height="22"
+                  /> </span
+              ></a>
+            </div>
+          </div>
         </div>
       </section>
       <!--Benefits section-->
